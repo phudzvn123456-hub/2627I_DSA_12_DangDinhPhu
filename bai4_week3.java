@@ -19,11 +19,7 @@ class soanthao{
     }
     public static void main(String[] args) {
         soanthao st = new soanthao();
-
         st.S = "abcde";
-
-        System.out.println("--- Bắt đầu chạy Test Case ---");
-        
         st.append("fg"); 
         st.print(6);       
         st.delete(5);     
